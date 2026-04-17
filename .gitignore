@@ -1,0 +1,39 @@
+```
+# Go-specific ignores
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+*.prof
+cover.out
+profile.cov
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
